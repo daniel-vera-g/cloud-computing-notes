@@ -1,28 +1,27 @@
-const path = require('path')
+const path = require("path");
 
-const PATH_PREFIX = process.env.PATH_PREFIX
+const PATH_PREFIX = process.env.PATH_PREFIX;
 
 module.exports = {
-  // pathPrefix: PATH_PREFIX || `/foam-template-gatsby-kb`, // a. If you are using github pages, this should be the name of your repo
-  pathPrefix: PATH_PREFIX || `/`, // b. If you are using Netlify/Vercel, your can keep it this way
+  pathPrefix: PATH_PREFIX || `/cloud-computing-notes`,
   siteMetadata: {
     // some SEO configs using by gatsby-theme-kb
-    title: `Foam`, // Replace it with your site's title
-    author: `Your Name`, // Replace it with your name
-    description: `My personal knowledge base`, // Replace it with your site's description
+    title: `Cloud computing notes`, // Replace it with your site's title
+    author: `Daniel VG`, // Replace it with your name
+    description: `Cloud computing notes from the HSKA SS/21`, // Replace it with your site's description
   },
   plugins: [
     {
       resolve: `gatsby-theme-kb`,
       options: {
-        rootNote: '/readme',
+        rootNote: "/readme",
         contentPath: `${__dirname}/..`,
         ignore: [
-          '**/_layouts/**',
-          '**/.git/**',
-          '**/.github/**',
-          '**/.vscode/**',
-          '**/.cache/**',
+          "**/_layouts/**",
+          "**/.git/**",
+          "**/.github/**",
+          "**/.vscode/**",
+          "**/.cache/**",
         ],
         // this is an option for extending `gatsby-plugin-mdx` options inside `gatsby-theme-kb`,
         getPluginMdx(defaultPluginMdx) {
@@ -30,18 +29,18 @@ module.exports = {
           defaultPluginMdx.options.gatsbyRemarkPlugins.push({
             resolve: `gatsby-remark-copy-linked-files`,
             options: {
-              ignoreFileExtensions: ['md', 'mdx'],
+              ignoreFileExtensions: ["md", "mdx"],
             },
-          })
+          });
 
           // an example of syntax highlighting
           defaultPluginMdx.options.gatsbyRemarkPlugins.push({
-            resolve: 'gatsby-remark-prismjs',
+            resolve: "gatsby-remark-prismjs",
             options: {
               noInlineHighlight: true,
             },
-          })
-          return defaultPluginMdx
+          });
+          return defaultPluginMdx;
         },
       },
     },
@@ -50,12 +49,12 @@ module.exports = {
       //   but of course you need to reference them by absolute path, e.g. '/assets/img.png'.
       // if you have multiple directories, copy this plugin section and specify other directory
       // check https://github.com/csath/gatsby-plugin-copy-files-enhanced to find docs for this plugin
-      resolve: 'gatsby-plugin-copy-files-enhanced',
+      resolve: "gatsby-plugin-copy-files-enhanced",
       options: {
         source: path.resolve(__dirname, `../assets`),
-        destination: '/assets',
+        destination: "/assets",
         purge: false,
       },
     },
   ],
-}
+};
