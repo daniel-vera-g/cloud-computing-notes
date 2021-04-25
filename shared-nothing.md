@@ -1,6 +1,6 @@
 # shared-nothing
 
-![](../../../attachments/shared-nothing.jpg)
+![](./attachments/shared-nothing.jpg)
 
 - Daten sind partitioniert (Sharding) und lokal zum verarbeitenden Knoten
 - (unendlich) skalierbar

@@ -8,7 +8,7 @@
 
 ## MapReduce Vorgang
 
-![](../../../attachments/mapReduce.png)
+![](./attachments/mapReduce.png)
 
 1. MAP Schritt:
    - Die Map Funktion wird für jedes key => value Paar einer Eingabeliste aufgerufen
@@ -19,7 +19,7 @@
 
 ### Input - Map - Reduce - Output example
 
-![](../../../attachments/map-reduce-example.png)
+![](./attachments/map-reduce-example.png)
 
 - See: <https://dzone.com/articles/mapreduce-design-patterns-1>
 

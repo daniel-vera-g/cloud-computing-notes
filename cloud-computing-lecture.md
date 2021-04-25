@@ -11,6 +11,8 @@
 - NOTE: This notes are mainly in german. External references contain english
 - Reference to the `cloud-computing` anki set for spaced repetition
 
+And here you go ⤵️:
+
 - [[cloud-computing-introduction]]
 - [[cloud-algorithmen-patterns]]
 - [[cloud-beispiele]]

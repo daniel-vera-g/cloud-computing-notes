@@ -1,6 +1,6 @@
 # shared-disk-architecture
 
-![](../../../attachments/shared-disk-architecture.png)
+![](./attachments/shared-disk-architecture.png)
 
 1. **Pro:**
    - Adaptiert schnell bei unterschiedlichen Last Szenarien (dynamisches Loadbalancing)

@@ -2,7 +2,7 @@
 
 > Problem: Wie finde ich den Speicherort für ein Objekt in einem verteilten System mit n Knoten?
 
-![](../../../attachments/consistent-hashing.png)
+![](./attachments/consistent-hashing.png)
 
 1. Knoten werden in Adressraum/Hashtabelle (0..S) angeordnet (z.B. durch Hashen der IP)
 2. Objekte werden mit der gleichen Hashfunktion gehashed
