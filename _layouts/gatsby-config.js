@@ -14,7 +14,7 @@ module.exports = {
     {
       resolve: `gatsby-theme-kb`,
       options: {
-        rootNote: "/readme",
+        rootNote: "/cloud-computing-lecture",
         contentPath: `${__dirname}/..`,
         ignore: [
           "**/_layouts/**",
