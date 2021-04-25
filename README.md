@@ -1,3 +1,0 @@
-# Cloud computing notes
-
-TODO
