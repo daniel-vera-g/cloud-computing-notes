@@ -1,10 +1,8 @@
 # Cloud computing notes
 
 > Notes regarding the cloud computing course held in the summer semester 2021
-
 - This notes are mainly in german. External references contain english.
-
-Start here 👉: [[cloud-computing-lecture]]
+- Start here 👉: [Cloud computing notes](https://daniel-vera-g.github.io/cloud-computing-notes/) 
 
 ## Acknowledgement
 
