@@ -9,12 +9,14 @@ Wichtige Dimensionen:
 - Netzwerk (Durchsatz, Delay, RTT)
 - Algorithmen
 
+---
+
 - [[cloud-skalierungsmöglichkeiten]]
 - [[konsistenz-in-verteilten-system]]
 
 ## Parallelisierung
 
-Zu beachten bei horizontale Skalierung:
+- Zu beachten bei horizontale Skalierung
 
 1. [[verteilung-von-code]]
 1. [[verteilung-von-daten]]
