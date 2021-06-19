@@ -16,7 +16,8 @@
 
 2. Nachteile
 
-– (Speicher) Overhead – Synchronisation der Queues
+- (Speicher) Overhead
+- Synchronisation der Queues
 
 ## Sources
 

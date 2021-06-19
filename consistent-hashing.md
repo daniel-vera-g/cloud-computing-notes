@@ -23,3 +23,4 @@
 - Image: <https://i0.wp.com/www.acodersjourney.com/wp-content/uploads/2017/08/Consistent-Hashing-Adding-Servers.jpg>
 - <https://en.wikipedia.org/wiki/Consistent_hashing>
 - Discord uses consistent hashing 🤔: <https://blog.discord.com/scaling-elixir-f9b8e1e7c29b>
+- Good resource: <https://www.toptal.com/big-data/consistent-hashing>

@@ -1,5 +1,5 @@
 # cloud-computing-lecture
-  
+
 > Notes regarding the cloud computing course held in the summer semester 2021
 
 - Content credits go to the lecturers Michael Fischer and Georg Magschok

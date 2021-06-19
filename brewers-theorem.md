@@ -2,7 +2,7 @@
 
 Ein Verteiltes System kann nur zwei der folgenden drei Eigenschaften erfüllen:
 
-1. **Konsistenz (C)**: Alle Knoten sehen zur selben Zeit die selben Daten
-1. **Verfügbarkeit (A)**: Alle! Anfragen an das System werden stets beantwortet
-1. **Partitionstoleranz (P)**: Das System setzt keine perfekte Kommunikationsinfrastruktur voraus. Nachrichten können
-   verloren gehen das Netz kann
+1. **Konsistenz (Consistency)**: Alle Knoten jederzeit die gleichen Daten sehen.
+1. **Verfügbarkeit (Availability)**: Alle Knoten stets Lese- und Schreibzugriffe durchführen können.
+1. **Partitionstoleranz (Partition Tolerance)**: Das System, auch bei Ausfall einzelner Knoten als Ganzes weiter
+   arbeiten kann.
