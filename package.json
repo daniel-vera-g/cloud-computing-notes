@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "markdown-link-check": "^3.8.7"
+  },
+  "scripts": {
+    "testLinks": "fd -e md -x node_modules/markdown-link-check/markdown-link-check --quiet {}"
+  }
+}
