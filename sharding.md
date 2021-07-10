@@ -1,5 +1,14 @@
 # sharding
 
+> Reihen oder Spalten einer großen Datenbank in kleinere Tabellen aufteilen
+
+1. Horizontal Sharding: Reihen werden aufgeteilt(Teilmenge der Daten)
+2. Vertikales Sharding: Spalten werden aufgeteilt(Teilmenge des Datenschemas)
+
+![](./attachments/sharding.png)
+
+- <https://hazelcast.com/glossary/sharding/>
+
 ## Difference sharding [[consistent-hashing]]
 
 > "You can think of sharding as the decision to put your data on multiple machines, and consistent hashing as one of

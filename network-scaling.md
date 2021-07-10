@@ -7,6 +7,16 @@
 
 ## Software Defined Networks (SDN)
 
+> Good intro Video: <https://www.youtube.com/watch?v=DiChnu_PAzA>
+
+![](./attachments/sdn.png)
+
+- Nutzt 3 Schichten Modell:
+  1. Forwarding device
+  2. Network OS
+  3. Network application
+- Die Availability von Netzwerk BS kann durch Clustern verbessert werden
+
 ### Eigenschaften SDNs
 
 - Scale-Out durch

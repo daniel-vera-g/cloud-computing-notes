@@ -20,7 +20,7 @@ Mit `h(n) = n mod m`:
 
 ## Beispielhafter pseudocode
 
-```
+```java
 function bloomFilter(ortsname) {
 
   int filterLength = 10
@@ -33,7 +33,6 @@ function bloomFilter(ortsname) {
   return true // Probably there
 }
 ```
-
 
 ## Quellen
 

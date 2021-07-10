@@ -12,12 +12,12 @@
 
 ## Beispiele
 
-1. Horizontal: Steigerung der Leistung eines Systems durch das Hinzufügen zusätzlicher Rechner/Knoten
-
-   - Load balancer, der die Last auf verschiedene Rechner verteilt
-   - Verteilte Datenbank um die Last der DB Anfragen zu verringern
-
-2. Vertikal: Hinzufügen von Ressourcen zu einem Knoten/Rechner des Systems.
+1. Vertikal: Hinzufügen von Ressourcen zu einem Knoten/Rechner des Systems.
 
    - Vergrößern v. Speicherplatz
    - Hinzufügen einer CPU
+
+2. Horizontal: Steigerung der Leistung eines Systems durch das Hinzufügen zusätzlicher Rechner/Knoten
+
+   - Load balancer, der die Last auf verschiedene Rechner verteilt
+   - Verteilte Datenbank um die Last der DB Anfragen zu verringern

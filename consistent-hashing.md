@@ -13,14 +13,23 @@
 
 ## Vorteile
 
-- Gleichmäßige Verteilung der Last wenn sich die Anzahl der Knotenändert
+- Gleichmäßige Verteilung der Last wenn sich die Anzahl der Knoten ändert
 - Dynamische Anpassung der Last durch die Anzahl „virtueller Punkte“ möglich => langsames Anfahren
 - Redundanz / Replikation durch weitere Schreib Vorgänge beim „nächsten“, „übernächsten“ etc. Knoten.
 - Dadurch auch bereits „gefüllter Cache“ möglich
+
+## Unterschied Replicas und Virtuelle Knoten
+
+1. Virtuelle Knoten sind Referenzen zu den physikalischen Knoten und enthalten keine Daten direkt
+2. Replicas fungieren als "Backup" und enthalten eine Kopie der Daten
+
+- <https://stackoverflow.com/questions/40622492/difference-between-replicas-and-virtual-nodes-in-consistent-hashing>
 
 ## Sources
 
 - Image: <https://i0.wp.com/www.acodersjourney.com/wp-content/uploads/2017/08/Consistent-Hashing-Adding-Servers.jpg>
 - <https://en.wikipedia.org/wiki/Consistent_hashing>
 - Discord uses consistent hashing 🤔: <https://blog.discord.com/scaling-elixir-f9b8e1e7c29b>
-- Good resource: <https://www.toptal.com/big-data/consistent-hashing>
+- Good resources:
+  - <https://www.toptal.com/big-data/consistent-hashing>
+  - <https://itnext.io/introducing-consistent-hashing-9a289769052e>
